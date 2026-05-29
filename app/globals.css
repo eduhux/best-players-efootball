@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+body {
+  background-color: #05060a;
+  color: #e8eaf2;
+  font-family: var(--font-body), system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+/* Fundo geral com brilho radial sutil */
+.app-bg {
+  position: relative;
+  background:
+    radial-gradient(circle at 50% -10%, rgba(34, 211, 238, 0.12), transparent 45%),
+    radial-gradient(circle at 85% 20%, rgba(245, 197, 66, 0.08), transparent 40%),
+    radial-gradient(circle at 10% 90%, rgba(59, 130, 246, 0.08), transparent 45%),
+    #05060a;
+}
+
+/* Grade sutil de fundo (estilo broadcast) */
+.bg-pitch-grid {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+  background-size: 56px 56px;
+}
+
+/* Cartão com glassmorphism */
+@layer components {
+  .glass {
+    @apply border border-white/10 bg-white/[0.04] backdrop-blur-xl;
+  }
+  .glass-strong {
+    @apply border border-white/15 bg-white/[0.06] backdrop-blur-2xl;
+  }
+  .text-gradient-gold {
+    @apply bg-gradient-to-r from-gold-soft via-gold to-gold-deep bg-clip-text text-transparent;
+  }
+  .text-gradient-neon {
+    @apply bg-gradient-to-r from-neon via-neon-deep to-neon-blue bg-clip-text text-transparent;
+  }
+  .section-pad {
+    @apply mx-auto w-full max-w-6xl px-5 py-20 sm:px-8 sm:py-28;
+  }
+}
+
+/* Texto com brilho dourado para campeões */
+.champion-glow {
+  text-shadow: 0 0 18px rgba(245, 197, 66, 0.55);
+}
+
+/* Efeito shimmer em badges */
+.shimmer-gold {
+  background: linear-gradient(
+    100deg,
+    #c9962a 0%,
+    #f5c542 20%,
+    #ffe08a 40%,
+    #f5c542 60%,
+    #c9962a 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 3s linear infinite;
+}
+
+/* Barra de rolagem personalizada */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0c14;
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(#c9962a, #f5c542);
+  border-radius: 8px;
+}
+
+/* Respeita usuários que preferem menos movimento */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
