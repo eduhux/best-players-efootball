@@ -1,0 +1,18 @@
+{
+  "jogadores": [
+    { "posicao": 1, "nome": "Daniel", "titulos": 51 },
+    { "posicao": 2, "nome": "Carlos", "titulos": 47 },
+    { "posicao": 3, "nome": "David", "titulos": 11 },
+    { "posicao": 4, "nome": "Davi", "titulos": 11 },
+    { "posicao": 5, "nome": "Wender", "titulos": 10 },
+    { "posicao": 6, "nome": "Wandro", "titulos": 9 },
+    { "posicao": 7, "nome": "Wallas", "titulos": 9 },
+    { "posicao": 8, "nome": "José Luiz", "titulos": 7 },
+    { "posicao": 9, "nome": "Luan", "titulos": 4 },
+    { "posicao": 10, "nome": "Raedson", "titulos": 2 },
+    { "posicao": 11, "nome": "Ruan", "titulos": 2 },
+    { "posicao": 12, "nome": "Francisco", "titulos": 1 },
+    { "posicao": 13, "nome": "Watson", "titulos": 1 },
+    { "posicao": 14, "nome": "Ycaro", "titulos": 1 }
+  ]
+}

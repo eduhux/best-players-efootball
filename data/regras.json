@@ -1,0 +1,46 @@
+{
+  "regras": [
+    {
+      "numero": 1,
+      "titulo": "Placar após 80 minutos",
+      "texto": "Se após 80 minutos a partida não continuar por qualquer problema, o placar será computado."
+    },
+    {
+      "numero": 2,
+      "titulo": "Saída durante a partida",
+      "texto": "Se o jogador sair a qualquer momento da partida estando perdendo, por problema de conexão ou pessoal, a partida será iniciada novamente com o mesmo placar, sem prejudicar o adversário que vencia."
+    },
+    {
+      "numero": 3,
+      "titulo": "Lags e travamentos",
+      "texto": "Se a partida começar com lags e travamentos, ela deve ser retirada e ambos os jogadores farão a súmula."
+    },
+    {
+      "numero": 4,
+      "titulo": "Exibição do campeão",
+      "texto": "O campeão de cada torneio, exceto a Super-Taça, será exibido no perfil do grupo até o fim do próximo campeonato."
+    },
+    {
+      "numero": 5,
+      "titulo": "Inatividade na temporada",
+      "texto": "O jogador que passar uma temporada sem jogar e não se apresentar ao grupo perderá o time escolhido."
+    }
+  ],
+  "punicoes": [
+    {
+      "numero": 1,
+      "titulo": "Fraude ou vantagem indevida",
+      "texto": "Jogador que tentar fraudar ou usar algo para ter vantagem será removido do grupo."
+    },
+    {
+      "numero": 2,
+      "titulo": "48h sem jogar",
+      "texto": "Jogador que passar 48h sem jogar perderá: 5 pontos na liga, 3 pontos nos campeonatos de grupo e leva W.O no mata-mata."
+    },
+    {
+      "numero": 4,
+      "titulo": "Suspensão da próxima edição",
+      "texto": "Jogador punido não disputará a próxima edição do campeonato em que foi punido."
+    }
+  ]
+}

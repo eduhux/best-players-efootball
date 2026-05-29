@@ -1,0 +1,97 @@
+{
+  "_obs": "Dados de exemplo organizados por competição. Edite os clubes e quantidades conforme o histórico real do grupo.",
+  "competicoes": [
+    {
+      "competicao": "Champions League",
+      "icone": "Star",
+      "conquistas": [
+        { "jogador": "Daniel", "clube": "Real Madrid", "titulos": 7 },
+        { "jogador": "Carlos", "clube": "Manchester City", "titulos": 6 },
+        { "jogador": "David", "clube": "Bayern de Munique", "titulos": 3 },
+        { "jogador": "Wallas", "clube": "Liverpool", "titulos": 2 },
+        { "jogador": "Wender", "clube": "PSG", "titulos": 1 }
+      ]
+    },
+    {
+      "competicao": "UEFA Europa League",
+      "icone": "Award",
+      "conquistas": [
+        { "jogador": "Carlos", "clube": "Sevilla", "titulos": 5 },
+        { "jogador": "Daniel", "clube": "Atlético de Madrid", "titulos": 4 },
+        { "jogador": "Davi", "clube": "Villarreal", "titulos": 2 },
+        { "jogador": "Wandro", "clube": "Roma", "titulos": 1 }
+      ]
+    },
+    {
+      "competicao": "Superliga",
+      "icone": "Trophy",
+      "conquistas": [
+        { "jogador": "Daniel", "clube": "Real Madrid", "titulos": 8 },
+        { "jogador": "Carlos", "clube": "Barcelona", "titulos": 7 },
+        { "jogador": "Wender", "clube": "Inter de Milão", "titulos": 3 },
+        { "jogador": "José Luiz", "clube": "Juventus", "titulos": 2 },
+        { "jogador": "Wandro", "clube": "Napoli", "titulos": 2 }
+      ]
+    },
+    {
+      "competicao": "Copa da Liga",
+      "icone": "Medal",
+      "conquistas": [
+        { "jogador": "Carlos", "clube": "Chelsea", "titulos": 5 },
+        { "jogador": "Daniel", "clube": "Arsenal", "titulos": 4 },
+        { "jogador": "David", "clube": "Tottenham", "titulos": 2 },
+        { "jogador": "Wallas", "clube": "Newcastle", "titulos": 2 }
+      ]
+    },
+    {
+      "competicao": "Supercopas",
+      "icone": "Sparkles",
+      "conquistas": [
+        { "jogador": "Daniel", "clube": "Real Madrid", "titulos": 9 },
+        { "jogador": "Carlos", "clube": "Manchester City", "titulos": 8 },
+        { "jogador": "David", "clube": "Bayern de Munique", "titulos": 3 },
+        { "jogador": "Davi", "clube": "Flamengo", "titulos": 2 }
+      ]
+    },
+    {
+      "competicao": "Mundial de Clubes",
+      "icone": "Crown",
+      "conquistas": [
+        { "jogador": "Daniel", "clube": "Real Madrid", "titulos": 5 },
+        { "jogador": "Carlos", "clube": "Manchester City", "titulos": 4 },
+        { "jogador": "José Luiz", "clube": "Corinthians", "titulos": 2 },
+        { "jogador": "Wandro", "clube": "Palmeiras", "titulos": 1 }
+      ]
+    },
+    {
+      "competicao": "Copa do Mundo",
+      "icone": "Globe",
+      "conquistas": [
+        { "jogador": "Carlos", "clube": "Brasil", "titulos": 3 },
+        { "jogador": "Daniel", "clube": "Argentina", "titulos": 3 },
+        { "jogador": "Davi", "clube": "França", "titulos": 1 },
+        { "jogador": "Wandro", "clube": "Alemanha", "titulos": 1 }
+      ]
+    },
+    {
+      "competicao": "Libertadores",
+      "icone": "Shield",
+      "conquistas": [
+        { "jogador": "José Luiz", "clube": "Flamengo", "titulos": 3 },
+        { "jogador": "Carlos", "clube": "Palmeiras", "titulos": 2 },
+        { "jogador": "Daniel", "clube": "River Plate", "titulos": 2 },
+        { "jogador": "Raedson", "clube": "Fluminense", "titulos": 1 }
+      ]
+    },
+    {
+      "competicao": "Copa do Brasil",
+      "icone": "Flag",
+      "conquistas": [
+        { "jogador": "Carlos", "clube": "Corinthians", "titulos": 4 },
+        { "jogador": "Daniel", "clube": "Grêmio", "titulos": 3 },
+        { "jogador": "Ruan", "clube": "Athletico-PR", "titulos": 1 },
+        { "jogador": "Francisco", "clube": "Cruzeiro", "titulos": 1 }
+      ]
+    }
+  ]
+}

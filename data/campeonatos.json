@@ -1,0 +1,76 @@
+{
+  "campeonatos": [
+    {
+      "id": "superliga",
+      "nome": "Superliga",
+      "icone": "Trophy",
+      "descricao": "A liga principal do grupo, disputada em pontos corridos ao longo da temporada.",
+      "edicoes": 24,
+      "cor": "gold"
+    },
+    {
+      "id": "copa-da-liga",
+      "nome": "Copa da Liga",
+      "icone": "Medal",
+      "descricao": "Torneio de mata-mata que reúne todos os participantes da Superliga.",
+      "edicoes": 18,
+      "cor": "neon"
+    },
+    {
+      "id": "champions-league",
+      "nome": "Champions League",
+      "icone": "Star",
+      "descricao": "A competição mais prestigiada do grupo. Só os melhores levantam essa taça.",
+      "edicoes": 21,
+      "cor": "gold"
+    },
+    {
+      "id": "europa-league",
+      "nome": "UEFA Europa League",
+      "icone": "Award",
+      "descricao": "O segundo torneio continental, palco de grandes zebras e viradas.",
+      "edicoes": 17,
+      "cor": "neon"
+    },
+    {
+      "id": "copa-do-mundo",
+      "nome": "Copa do Mundo",
+      "icone": "Globe",
+      "descricao": "O mundial de seleções do grupo, disputado em edições especiais.",
+      "edicoes": 9,
+      "cor": "gold"
+    },
+    {
+      "id": "eurocopa",
+      "nome": "Eurocopa",
+      "icone": "Flag",
+      "descricao": "Torneio de seleções europeias, tradição entre as edições continentais.",
+      "edicoes": 8,
+      "cor": "neon"
+    },
+    {
+      "id": "mundial-de-clubes",
+      "nome": "Mundial de Clubes",
+      "icone": "Crown",
+      "descricao": "Reúne os campeões continentais para decidir o melhor do mundo.",
+      "edicoes": 14,
+      "cor": "gold"
+    },
+    {
+      "id": "supercopa-da-liga",
+      "nome": "Supercopa da Liga",
+      "icone": "Shield",
+      "descricao": "Abertura da temporada entre o campeão da Superliga e o da Copa da Liga.",
+      "edicoes": 16,
+      "cor": "neon"
+    },
+    {
+      "id": "supercopa-da-europa",
+      "nome": "Supercopa da Europa",
+      "icone": "Sparkles",
+      "descricao": "Duelo entre o campeão da Champions e o da Europa League.",
+      "edicoes": 15,
+      "cor": "gold"
+    }
+  ]
+}

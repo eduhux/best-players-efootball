@@ -1,0 +1,18 @@
+{
+  "melhorJogador": [
+    { "nome": "Daniel", "quantidade": 6 },
+    { "nome": "Carlos", "quantidade": 6 },
+    { "nome": "David", "quantidade": 1 },
+    { "nome": "Wandro", "quantidade": 1 },
+    { "nome": "Davi", "quantidade": 1 }
+  ],
+  "puskas": [
+    { "nome": "Wandro", "quantidade": 5 },
+    { "nome": "Daniel", "quantidade": 4 },
+    { "nome": "Wallas", "quantidade": 3 },
+    { "nome": "Luan", "quantidade": 2 },
+    { "nome": "Wender", "quantidade": 1 },
+    { "nome": "Davi", "quantidade": 1 },
+    { "nome": "Carlos", "quantidade": 1 }
+  ]
+}
